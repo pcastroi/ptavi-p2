@@ -25,6 +25,6 @@ if __name__ == "__main__":
     elif sys.argv[2] == "resta":
         result = minus(operando1, operando2)
     else:
-        sys.exit('Operación sólo puede ser sumar o restar.')
+        sys.exit('Operación sólo puede ser suma o resta.')
 
     print(result)

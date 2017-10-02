@@ -17,7 +17,7 @@ with open(sys.argv[1], 'r') as fich:
             for num in nums:
                 result = calc.suma(result, int(nums[i]))
                 i = i + 1
-                
+
         elif operat == 'resta':
             i = 0
             result = int(nums[i])
@@ -25,14 +25,14 @@ with open(sys.argv[1], 'r') as fich:
                 if i < (len(nums) - 1):
                     result = calc.resta(result, int(nums[i + 1]))
                     i = i + 1
-                    
+
         elif operat == 'multiplica':
             i = 0
             result = 1
             for num in nums:
                 result = calc.multiplica(result, int(nums[i]))
                 i = i + 1
-                
+
         elif operat == 'divide':
             i = 0
             result = int(nums[i])

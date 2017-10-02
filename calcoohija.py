@@ -4,16 +4,17 @@
 import sys
 import calcoo
 
+
 class CalculadoraHija(calcoo.Calculadora):
-  "clase CalculadoraHija hereda de Calculadora"
+    "clase CalculadoraHija hereda de Calculadora"
 
-  def multiplica(self, valor1, valor2):
-    """multiplico valor1 con valor2"""
-    return valor1 * valor2
+    def multiplica(self, valor1, valor2):
+        """multiplico valor1 con valor2"""
+        return valor1 * valor2
 
-  def divide(self, valor1, valor2):
-    """divide valor1 entre valor2"""
-    return valor1 / valor2
+    def divide(self, valor1, valor2):
+        """divide valor1 entre valor2"""
+        return valor1 / valor2
 
 if __name__ == "__main__":
     try:
@@ -39,4 +40,3 @@ if __name__ == "__main__":
         sys.exit('Operación sólo puede ser: suma, resta, multiplica, divide')
 
     print(result)
-

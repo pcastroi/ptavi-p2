@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+
 class Clase(ClaseMadre):
     "Esto es un ejemplo de clase que hereda de ClaseMadre"
 
@@ -14,8 +15,9 @@ class Clase(ClaseMadre):
         res = self.valor1 + self.valor2
 
 if __name__ == "__main__":
-    objeto = Clase("pepe", "213234234Y") # Creo un objeto de la clase Clase
-                         # y le paso el valor pepe para su
-                         # atributo en la inicialización
+    objeto = Clase("pepe", "213234234Y")
+# Creo un objeto de la clase Clase
+# y le paso el valor pepe para su
+# atributo en la inicialización
     objeto2 = Clase("maria", "12323432T")
     objeto2.suma()

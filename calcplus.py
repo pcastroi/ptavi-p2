@@ -49,6 +49,7 @@ for line in linelist:
                 if i < (len(numlist) - 1):
                     result = calc.divide(result, int(numlist[i + 1]))
                     i = i + 1
+
             except ZeroDivisionError:
                 sys.exit('División por cero')
 

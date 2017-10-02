@@ -3,16 +3,17 @@
 
 import sys
 
+
 class Calculadora:
-  "clase Calculadora"
+    "clase Calculadora"
 
-  def suma(self, valor1, valor2):
-    """sumo valor1 a valor2"""
-    return valor1 + valor2
+    def suma(self, valor1, valor2):
+        """sumo valor1 a valor2"""
+        return valor1 + valor2
 
-  def resta(self, valor1, valor2):
-    """resto valor2 a valor1"""
-    return valor1 - valor2
+    def resta(self, valor1, valor2):
+        """resto valor2 a valor1"""
+        return valor1 - valor2
 
 if __name__ == "__main__":
     try:
@@ -31,4 +32,3 @@ if __name__ == "__main__":
         sys.exit('Operación sólo puede ser suma o resta.')
 
     print(result)
-
